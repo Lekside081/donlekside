@@ -1,5 +1,5 @@
 <template>
     <div>
-        <signout/>
+        <AuthSignout/>
     </div>
 </template>

@@ -1,7 +1,7 @@
 <template>
-    <narbar/>
+    <head-narbar/>
  <div class="flex flex-row">
-    <sidebar/>
-    <deposite/>
+    <head-sidebar/>
+    <profile-deposite/>
  </div>
 </template>

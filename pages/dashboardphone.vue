@@ -1,8 +1,8 @@
 <template>
     <div class="hidden lg:block">
-        <narbarphone />
+        <MobileNarbarphone />
         <div class="flex flex-row">
-            <mainbarphone/>
+            <MobileMainbarphone/>
         </div>
     </div>
 </template>

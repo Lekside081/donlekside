@@ -1,4 +1,5 @@
 <template>
+  
     <div class="basis-full bg-slate-50 items-center md:p-6 lg:p-0 w-full md:w-1/2 lg:w-1/3 mx-auto">
       <aside id="" class=" w- h-screen sm:translate-x-0 overflow-y-auto" aria-label="Sidebar">
         <!-- Back Arrow -->

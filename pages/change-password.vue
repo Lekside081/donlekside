@@ -1,7 +1,7 @@
 <template>
-    <narbar/>
+    <HeadNarbar/>
  <div class="flex flex-row">
-    <sidebar/>
- <change-password/>
+    <HeadSidebar/>
+ <profilchange-password/>
  </div>
 </template>

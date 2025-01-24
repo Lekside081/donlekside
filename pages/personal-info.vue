@@ -1,9 +1,9 @@
 <template>
     <div>
-        <narbar/>
+        <head-narbar/>
     </div>
  <div class="flex flex-row">
-    <sidebar/>
-        <personal-info/>
+    <head-sidebar/>
+        <profile-personal-info/>
     </div>
 </template>

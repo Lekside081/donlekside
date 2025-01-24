@@ -1,5 +1,5 @@
 <template>
     <div>
-        <forgetpassword/>
+        <AuthForgetpassword/>
     </div>
 </template>

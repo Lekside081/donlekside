@@ -132,7 +132,7 @@ export default {
 }
 /* For WebKit browsers */
 ::-webkit-scrollbar {
-  width: 6px;
+  width: 4px;
 }
 
 ::-webkit-scrollbar-track {
@@ -142,7 +142,7 @@ export default {
 ::-webkit-scrollbar-thumb {
   background-color: #f75454; /* Color of the scrollbar thumb */
   border-radius: 4px; /* Roundness of the scrollbar thumb */
-  border: 3px solid #7061f9; /* Optional: adds space around the thumb */
+  border: 2px solid #7061f9; /* Optional: adds space around the thumb */
 }
 
 ::-webkit-scrollbar-thumb:hover {

@@ -1,5 +1,5 @@
 <template>
     <div>
-        <signup/>
+        <AuthSignup/>
     </div>
 </template>

@@ -1,8 +1,8 @@
 <template>
-    <narbar/>
+    <head-narbar/>
      <div class="flex flex-row">
-      <sidebar/>
-      <staking/>
+      <head-sidebar/>
+      <profile-staking/>
       </div>
    
   </template>

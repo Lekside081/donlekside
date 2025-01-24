@@ -1,7 +1,7 @@
 <template>
-    <narbar/>
+    <head-narbar/>
     <div class="flex flex-row">
-       <sidebar/>
+       <head-sidebar/>
        <history/>
     </div>
 </template>

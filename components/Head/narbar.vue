@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-between  py-5 px-4">
+    <div class="flex justify-between py-5 px-4">
         <div class="font-bold">
             DONLEKSIDE
         </div>

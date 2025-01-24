@@ -1,7 +1,7 @@
 <template>
-    <narbar/>
+    <head-narbar/>
  <div class="flex flex-row">
-    <sidebar/>
-    <helpsupport/>
+    <head-sidebar/>
+    <profile-helpsupport/>
  </div>
 </template>
