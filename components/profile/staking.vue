@@ -2,7 +2,7 @@
     <div class="basis-full min-h-screen bg-gray-100 px-0 items-center p-4 md:p-6 lg:p-0 w-full md:w-1/2 lg:w-1/3 mx-auto">
         <aside id="" class=" w- h-screen transition-transform sm:translate-x-0 overflow-y-auto" aria-label="Sidebar">
         <!-- Top Bar -->
-        <div class="flex items-center space-x-96 ml-6 py-6">
+        <div class="flex items-center justify-between mx-6 py-6">
             <button class="text-gray-500 hover:text-gray-700">
               <NuxtLink to="/dashboard">
               <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -31,8 +31,8 @@
             </div>
         </div>
 
-        <div class="flex space-x-4 ml-5 mr-5">
-            <div class="basis-2/12 bg-zinc-200 rounded-lg">
+        <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 mx-5">
+            <div class="w-full md:basis-1/5 bg-zinc-200 rounded-lg">
                 <div class="flex justify-between ml-2 mr-2 mt-2">
                 <div class="text-sm">SZCB Main</div>
                 <div><svg class="w-[19px] h-[19px] text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
@@ -45,7 +45,7 @@
                   <div class="mt-2 ml-2 font-bold">SZCB</div>
                   <div class="ml-2">0</div>
             </div>
-            <div class="basis-2/12 bg-zinc-200 rounded-lg">
+            <div class="w-full md:basis-1/5 bg-zinc-200 rounded-lg">
                 <div class="flex justify-between ml-2 mr-2 mt-2">
                 <div class="text-xs">SZCB STAKING<br/><span>LOCKED</span></div>
                 <div><svg class="w-[19px] h-[19px] text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
@@ -58,7 +58,7 @@
                 <div class="ml-2 mb-2">10010</div>
             </div>
 
-            <div class="basis-2/12 bg-zinc-200 rounded-lg">
+            <div class="w-full md:basis-1/5 bg-zinc-200 rounded-lg">
                 <div class="flex justify-between ml-2 mr-2 mt-2">
                 <div class="text-sm">SZC</div>
                 <div><svg class="w-[19px] h-[19px] text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
@@ -71,7 +71,7 @@
                 <div class="ml-2">0.00</div>
             </div>
 
-            <div class="basis-2/12 bg-zinc-200 rounded-lg">
+            <div class="w-full md:basis-1/5 bg-zinc-200 rounded-lg">
                 <div class="flex ml-4 mt-2">
                     <div class="text-xs">SZC-STAKING-LOCKED</div>
                     <div><svg class="w-[19px] h-[19px] text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
@@ -85,7 +85,7 @@
                 <div class="ml-4">0.00</div>
              </div>
 
-            <div class="basis-2/12 bg-zinc-200 rounded-lg">
+            <div class="w-full md:basis-1/5 bg-zinc-200 rounded-lg">
                 <div class="flex justify-between ml-2 mr-2 mt-2">
                     <div class="text-xs">SUSD</div>
                     <div><svg class="w-[19px] h-[19px] text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
@@ -99,7 +99,7 @@
                 <div class="ml-2">0.00</div>
             </div>
 
-            <div class="basis-2/12 bg-zinc-200 rounded-lg">
+            <div class="w-full md:basis-1/5 bg-zinc-200 rounded-lg">
                 <div class="flex justify-between ml-2 mr-2 mt-2">
                     <div class="text-xs">SUSD_LOCKED</div>
                     <div><svg class="w-[19px] h-[19px] text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">

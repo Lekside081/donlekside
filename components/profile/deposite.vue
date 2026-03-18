@@ -3,7 +3,7 @@
     <div class="basis-full bg-slate-50 items-center md:p-6 lg:p-0 w-full md:w-1/2 lg:w-1/3 mx-auto">
       <aside id="" class=" w- h-screen sm:translate-x-0 overflow-y-auto" aria-label="Sidebar">
         <!-- Back Arrow -->
-        <div class="flex items-center space-x-96 ml-6 py-6">
+        <div class="flex items-center justify-between mx-6 py-6">
             <button class="text-gray-500 hover:text-gray-700">
               <NuxtLink to="/dashboard">
               <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -42,9 +42,9 @@
             <p class="text-lg">Sending any other asset to this address may result in the loss of your deposit!</p>
             <p class="text-red-500 text-lg">Please note, <span class="font-bold">minimum deposit</span> is <span class="font-bold">$1</span> worth of <span class="font-bold">SZCB, USDT</span> and <span class="font-bold">BNB</span></p>
             </div>
-            <div class="text-xs text-pink-900 mt-2 sm:text-sm md:text-base md:w-1/2 lg:w-1/2 mx-72">Note: We Only Support BEP20</div>
+            <div class="text-xs text-pink-900 mt-2 sm:text-sm md:text-base text-center w-full">Note: We Only Support BEP20</div>
             <div class="flex">
-            <div class="basis-7/12 text-xl rounded-lg bg-gray-200 p-2 mx-72">
+            <div class="w-full text-sm md:text-xl rounded-lg bg-gray-200 p-2 text-center overflow-x-auto">
               <code>0x5e02dfc1348e44d6d40b9ed1a60a6b83fdcf2cef</code>
            </div>
            </div>

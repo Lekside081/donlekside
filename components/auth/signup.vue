@@ -1,11 +1,11 @@
 <template>
     <aside id="" class=" w- h-screen transition-transform -translate-x-full sm:translate-x-0 overflow-y-auto" aria-label="Sidebar">
-<div class="flex">
-    <div class="basis-1/2">
-        <img src="/public/3d.webp" alt="Blocks Image">
+<div class="flex flex-col md:flex-row">
+    <div class="w-full md:basis-1/2 flex items-center justify-center p-4">
+        <img src="/public/3d.webp" alt="Blocks Image" class="max-w-full h-auto">
     </div>
 
-    <div class="basis-1/2">
+    <div class="w-full md:basis-1/2 p-4">
   
     
     <!-- Header Section -->
@@ -15,16 +15,16 @@
     </div>
     
     <!-- Form Section -->
-    <div class="w-full max-w-lg bg-white ml-20 rounded-lg">
+    <div class="w-full max-w-lg bg-white mx-auto md:mx-0 lg:ml-20 rounded-lg">
     <h2 class="text-center text-2xl font-semibold">Create Account</h2>
     <p class="text-center text-gray-600">Already have an account? <a href="/login" class="text-blue-600 hover:underline">Login</a></p>
     
     <form class="mt-6 space-y-4">
       
       <!-- First and Last Name -->
-      <div class="flex space-x-4">
-        <input type="text" placeholder="First Name" class="w-80 px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
-        <input type="text" placeholder="Last Name" class="w-80 px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+      <div class="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0">
+        <input type="text" placeholder="First Name" class="w-full md:w-1/2 px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+        <input type="text" placeholder="Last Name" class="w-full md:w-1/2 px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
       </div>
       
       <!-- Email -->

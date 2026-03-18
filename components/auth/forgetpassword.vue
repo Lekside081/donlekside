@@ -69,16 +69,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #f8f9fa;
+    padding: 15px;
   }
   
   .login-box {
     display: flex;
-    width: 4000px;
-    height: 700px;
+    width: 100%;
+    max-width: 900px;
+    min-height: 700px;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
     background-color: #ffffff;
+    flex-direction: column;
+  }
+
+  @media (min-width: 1024px) {
+    .login-box {
+      flex-direction: row;
+    }
   }
   
   .image-container {
@@ -87,12 +96,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: px;
+    padding: 20px;
   }
   
   .login-form {
     flex: 1;
-    padding: px;
+    padding: 20px;
   }
   
   .title {
@@ -128,7 +137,10 @@
   }
   
   .login-button {
-    padding: 10px 300px;
+    padding: 10px 0;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
     background-color: #5412efc8;
     color: #ffffff;
     border: none;

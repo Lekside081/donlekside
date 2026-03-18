@@ -1,5 +1,5 @@
 <template>
-    <div class="basis-10/12 bg-slate-50 ">
+    <div class="w-full lg:basis-10/12 bg-slate-50 min-h-screen">
         <div class=" flex px-4 mt-8">
         <div>
             <svg class="w-[48px] h-[48px] text-gray-400 dark:text-white" aria-hidden="true"
@@ -26,7 +26,7 @@
               </div> 
         </div>
         
-        <div class="flex flex-row mt-4 justify-between space-x-5 px-4">
+        <div class="flex flex-col md:flex-row mt-4 justify-between space-y-4 md:space-y-0 md:space-x-5 px-4">
             <div class="basis-1/3 bg-zinc-100">
                 <div class="flex flex-row justify-between mt-3 px-4">
                     <div>SZCB Main</div>
@@ -73,7 +73,7 @@
         <div class="flex flex-row">
         <div class="basis-full bg-white mt-4 mr-4 ml-4 py-6">
             <div class="px-4 mb-2">Quick Actions</div>
-            <div class="flex flex-row space-x-4 px-4">
+            <div class="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-4 px-4">
                 <div class="basis-1/3 bg-blue-900 rounded-lg py-3">
                     <div class="flex justify-end mr-4">
                         <a href="deposite">
